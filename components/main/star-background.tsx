@@ -15,11 +15,12 @@ export const StarBackground = (props: PointsInstancesProps) => {
   const [sphere] = useState(() => {
     try {
       const array = new Float32Array(5000 * 3);
-      return random.inSphere(array, { radius: 1.2 });
+      const result = random.inSphere(array, { radius: 1.2 });
+      return new Float32Array(result);
     } catch (error) {
       console.error("Error generating sphere:", error);
-      // Fallback: return a valid array with default values
-      return new Float32Array(5000 * 3).fill(0).map(() => Math.random() - 0.5);
+      // Fallback: return a valid Float32Array
+      return new Float32Array(5000 * 3).fill(0);
     }
   });
 

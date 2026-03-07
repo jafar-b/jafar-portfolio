@@ -52,12 +52,10 @@ export const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          href="https://github.com/jafar-b"
-          target="_blank"
-          rel="noreferrer noopener"
+          href="mailto:beldarjafar@gmail.com"
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
+          Get In Touch
         </motion.a>
       </div>
 

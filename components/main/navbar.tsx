@@ -41,14 +41,13 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
+            {/* Resume */}
             <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/Jafar_Beldar_IT.pdf"
+              download
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              Resume
             </Link>
           </div>
         </div>
@@ -92,13 +91,12 @@ export const Navbar = () => {
               </Link>
             ))}
             <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/Jafar_Beldar_IT.pdf"
+              download
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Source Code
+              Resume
             </Link>
           </div>
 
