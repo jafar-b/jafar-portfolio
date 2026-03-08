@@ -72,6 +72,12 @@ export const BACKEND_SKILL = [
     height: 60,
   },
   {
+    skill_name: "Laravel",
+    image: "laravel.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Node.js",
     image: "node.png",
     width: 80,
@@ -83,17 +89,11 @@ export const BACKEND_SKILL = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Java",
-    image: "java.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "Python",
-    image: "python.png",
-    width: 70,
-    height: 70,
+    {
+    skill_name: "Spring Boot",
+    image: "spring.png",
+    width: 110,
+    height: 120,
   },
   {
     skill_name: "MongoDB",
