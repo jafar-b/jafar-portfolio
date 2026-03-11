@@ -88,7 +88,7 @@ export const Encryption = () => {
               variants={slideInFromTop}
               className="border-l-4 border-cyan-500 pl-6"
             >
-              <h4 className="text-xl font-semibold text-cyan-400 mb-2">Software Engineer Intern</h4>
+              <h4 className="text-xl font-semibold text-cyan-400 mb-2">Software Engineer Trainee</h4>
               <p className="text-gray-300 font-medium mb-2">Benchmark IT Solutions • Jan 2025 - May 2025</p>
               <ul className="text-gray-400 text-sm space-y-2">
                 <li>• Contributed to development of production-grade application features and backend API integrations</li>
