@@ -13,8 +13,10 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
-export const viewport: Viewport = {
-  themeColor: "#030014",
+export const viewport = {
+  width: "1280",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export const metadata: Metadata = siteConfig;

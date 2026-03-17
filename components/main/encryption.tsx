@@ -31,7 +31,7 @@ export const Encryption = () => {
             className="overflow-hidden rounded-lg shadow-lg border border-purple-500/30 hover:border-purple-500/60 transition-all"
           >
             <Image
-              src="/main.jpg"
+              src="/main.png"
               alt="Jafar Photo"
               width={300}
               height={400}
